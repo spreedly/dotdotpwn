@@ -1,0 +1,10 @@
+requires 'perl', '5.10.1';
+requires 'Bundle::LWP';
+requires 'Net::FTP';
+requires 'TFTP';
+requires 'Time::HiRes';
+requires 'Socket';
+requires 'IO::Socket';
+requires 'IO::Socket::SSL';
+requires 'Getopt::Std';
+requires 'Switch';
