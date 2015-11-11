@@ -22,6 +22,52 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 0
       Test 0
       perl 5.008
+  ExtUtils-MakeMaker-7.10
+    pathname: B/BI/BINGOS/ExtUtils-MakeMaker-7.10.tar.gz
+    provides:
+      ExtUtils::Command 7.10
+      ExtUtils::Command::MM 7.10
+      ExtUtils::Liblist 7.10
+      ExtUtils::Liblist::Kid 7.10
+      ExtUtils::MM 7.10
+      ExtUtils::MM_AIX 7.10
+      ExtUtils::MM_Any 7.10
+      ExtUtils::MM_BeOS 7.10
+      ExtUtils::MM_Cygwin 7.10
+      ExtUtils::MM_DOS 7.10
+      ExtUtils::MM_Darwin 7.10
+      ExtUtils::MM_MacOS 7.10
+      ExtUtils::MM_NW5 7.10
+      ExtUtils::MM_OS2 7.10
+      ExtUtils::MM_QNX 7.10
+      ExtUtils::MM_UWIN 7.10
+      ExtUtils::MM_Unix 7.10
+      ExtUtils::MM_VMS 7.10
+      ExtUtils::MM_VOS 7.10
+      ExtUtils::MM_Win32 7.10
+      ExtUtils::MM_Win95 7.10
+      ExtUtils::MY 7.10
+      ExtUtils::MakeMaker 7.10
+      ExtUtils::MakeMaker::Config 7.10
+      ExtUtils::MakeMaker::Locale 7.10
+      ExtUtils::MakeMaker::_version 7.10
+      ExtUtils::MakeMaker::charstar 7.10
+      ExtUtils::MakeMaker::version 7.10
+      ExtUtils::MakeMaker::version::regex 7.10
+      ExtUtils::MakeMaker::version::vpp 7.10
+      ExtUtils::Mkbootstrap 7.10
+      ExtUtils::Mksymlists 7.10
+      ExtUtils::testlib 7.10
+      MM 7.10
+      MY 7.10
+    requirements:
+      Data::Dumper 0
+      DirHandle 0
+      Encode 0
+      File::Basename 0
+      File::Spec 0.8
+      Pod::Man 0
+      perl 5.006
   File-Listing-6.04
     pathname: G/GA/GAAS/File-Listing-6.04.tar.gz
     provides:
@@ -182,17 +228,21 @@ DISTRIBUTIONS
       File::Temp 0
       Scalar::Util 0
       Test::More 0.88
-  IO-Socket-SSL-1.954
-    pathname: S/SU/SULLR/IO-Socket-SSL-1.954.tar.gz
+  IO-Socket-SSL-2.020
+    pathname: S/SU/SULLR/IO-Socket-SSL-2.020.tar.gz
     provides:
-      IO::Socket::SSL 1.954
-      IO::Socket::SSL::Intercept 1.93
-      IO::Socket::SSL::SSL_Context 1.954
-      IO::Socket::SSL::SSL_HANDLE 1.954
-      IO::Socket::SSL::Session_Cache 1.954
-      IO::Socket::SSL::Utils 0.01
+      IO::Socket::SSL 2.020
+      IO::Socket::SSL::Intercept 2.014
+      IO::Socket::SSL::OCSP_Cache 2.020
+      IO::Socket::SSL::OCSP_Resolver 2.020
+      IO::Socket::SSL::PublicSuffix undef
+      IO::Socket::SSL::SSL_Context 2.020
+      IO::Socket::SSL::SSL_HANDLE 2.020
+      IO::Socket::SSL::Session_Cache 2.020
+      IO::Socket::SSL::Utils 2.014
     requirements:
       ExtUtils::MakeMaker 0
+      Mozilla::CA 0
       Net::SSLeay 1.46
       Scalar::Util 0
   LWP-MediaTypes-6.02
@@ -202,6 +252,14 @@ DISTRIBUTIONS
     requirements:
       ExtUtils::MakeMaker 0
       perl 5.006002
+  Mozilla-CA-20150826
+    pathname: A/AB/ABH/Mozilla-CA-20150826.tar.gz
+    provides:
+      Mozilla::CA 20150826
+    requirements:
+      ExtUtils::MakeMaker 0
+      Test 0
+      perl 5.006
   Net-HTTP-6.06
     pathname: G/GA/GAAS/Net-HTTP-6.06.tar.gz
     provides:
@@ -216,10 +274,10 @@ DISTRIBUTIONS
       IO::Select 0
       IO::Socket::INET 0
       perl 5.006002
-  Net-SSLeay-1.55
-    pathname: M/MI/MIKEM/Net-SSLeay-1.55.tar.gz
+  Net-SSLeay-1.72
+    pathname: M/MI/MIKEM/Net-SSLeay-1.72.tar.gz
     provides:
-      Net::SSLeay 1.55
+      Net::SSLeay 1.72
       Net::SSLeay::Handle 0.61
     requirements:
       ExtUtils::MakeMaker 6.36
