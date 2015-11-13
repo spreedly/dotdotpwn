@@ -31,6 +31,7 @@ sub FuzzHTTP{
 
 	foreach my $traversal (@main::traversals){
 		my $http = LWP::UserAgent->new();
+		$http->max_redirect( 0 );
 
 		$UserAgent = @UserAgents[int(rand(@UserAgents))];
                 my $request = new HTTP::Request $method, '' . ($ssl ? "https://" : "http://") . "$host" . ($port ? ":$port" : "") . "/" . $traversal;
